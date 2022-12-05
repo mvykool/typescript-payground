@@ -25,4 +25,5 @@ function getHero(){
 
 hero = getHero()
 
+
 export{}
