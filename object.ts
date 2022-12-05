@@ -66,4 +66,23 @@ type cardDetails = cardDate & cardNumber & {
 }
 
 
+//arrays 
+
+const heroes: string[] = []
+const powers: number[] = []
+
+
+type SuperUser = {
+    name: string
+    isActive: boolean
+}
+
+const allUsers: SuperUser[] = []
+
+heroes.push("superman")
+powers.push(2)
+
+allUsers.push({name: "", isActive: true})
+
+
 export{}
